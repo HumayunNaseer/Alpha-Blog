@@ -1,0 +1,85 @@
+$bg-light: #08088A;
+@import "bootstrap";
+
+#logo{
+
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+    display: inline-block;
+}
+
+
+
+.right {
+    text-align: right;
+    width: 45%;
+    float: right;
+    /*            height: 300px;*/
+    /*            padding-top: 100px;*/
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.left {
+    text-align: left;
+    width: 45%;
+    float: left;
+    /*            height: 300px;*/
+    /*            padding-top: 100px;*/
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.center{
+
+  text-align: center;
+}
+
+.jumbotron{
+
+  background-image: url('https://www.atypicalfinance.com/wp-content/uploads/2018/10/Homepage-background.jpg');
+  background-size: cover;
+  height: 550px;
+
+}
+
+.jumbotron h1 {
+margin-top: 120px;
+color: #fff;
+font-weight: bold;
+letter-spacing: -1px;
+font-size: 70px;
+
+}
+
+.footer{
+margin-top: 45px;
+padding-top: 5px;
+border-top: 1px solid #eaeaea;
+color: #777;
+}
+
+.footer a:hover {
+color: #222;
+
+}
+
+.footer small{
+  float: left;
+}
+
+.footer ul {
+
+  float: right;
+  list-style: none;
+}
+
+.footer ul li{
+
+  float: left;
+  margin-left: 15px; 
+}
