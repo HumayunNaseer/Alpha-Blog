@@ -47,6 +47,11 @@ p {
   text-align: center;
 }
 
+.userdiv{
+  margin-left: -100px !important;
+
+}
+
 .jumbotron{
 
   background-image: url('https://www.atypicalfinance.com/wp-content/uploads/2018/10/Homepage-background.jpg');
@@ -97,6 +102,13 @@ border-top: 1 px solid #eaeaea;
 padding-top: 10px;
 padding-bottom: 15px;
 
+}
+
+.listing{
+
+  list-style: none;
+  padding-left: 41%;
+  margin-top: 30px;
 }
 
 .footer{
