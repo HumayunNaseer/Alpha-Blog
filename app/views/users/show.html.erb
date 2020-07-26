@@ -5,6 +5,15 @@
   </div>
 </div>
 
-<h4 align = "center"> <%= @user.username %>'s articles </h4>
+<h4 align = "center" > <%= @user.username %>'s articles </h4>
+<div class="center card card-body p-4 mb-2 bg-light text-white col-sm-4 pagination22">
 
-<%= render 'articles/article', obj: @user.articles %>
+  <%= will_paginate @user_articles %>
+</div>
+
+<%= render 'articles/article', obj: @user_articles %>
+
+<div class="center card card-body p-4 mb-2 bg-light text-white col-sm-4 pagination22">
+
+  <%= will_paginate @user_articles %>
+</div>

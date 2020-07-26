@@ -1,5 +1,9 @@
 <h1 align ="center"> All Alpha Blogers </h1>
 <div align = "center">
+  <div class="card card-body p-4 mb-2 bg-light text-white col-sm-4 pagination22" >
+
+    <%= will_paginate %>
+  </div>
 
   <% @users.each do |user| %>
       <ul class="listing center">
