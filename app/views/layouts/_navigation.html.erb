@@ -47,7 +47,7 @@
     <% if logged_in? %>
     <div class="dropdown show myprofile" >
         <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Your Profile
+          Your Profile <%= "Admin" if current_user.admin? %>
         </a>
 
         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
