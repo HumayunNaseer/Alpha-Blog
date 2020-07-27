@@ -18,7 +18,7 @@ class ArticlesController<ApplicationController
 
     @article = Article.new(article_params)
 
-    @article.user = User.first
+    @article.user = current_user
 
       if (@article.save)
 
@@ -76,6 +76,6 @@ private
     if current_user != @article.user
        flash[:danger] = "you can edit or delete only your own article"
        redirect_to root_path
-     end  
+     end
   end
 end
